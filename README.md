@@ -6,9 +6,9 @@ There is another solution, which will update npm package globally on local machi
 
 **Run PowerShell as Administrator**
 
-`Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force`
-`npm install -g npm-windows-upgrade`
-`npm-windows-upgrade`
+`Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+npm install -g npm-windows-upgrade
+npm-windows-upgrade`
 
 **Note**: Do not run npm i -g npm. Instead use npm-windows-upgrade to update npm going forward. Also if you run the NodeJS installer, it will replace the node version.
 
